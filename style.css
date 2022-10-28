@@ -1,0 +1,125 @@
+@charset "UTF-8"; /* regra para evitar problemas com acento */
+
+
+
+/* Exemplo de comentário em css */
+/* root pega tudo, variáveis devem começar com --    */
+
+/*  colocando * é a definição global */
+
+:root{
+    --cor0: #32b8588e;
+
+}
+
+* {padding: 0px;
+
+}
+
+   
+    body{
+        background-image: linear-gradient(to right, var(--cor0), white)
+    }
+
+    
+
+    header{
+        background-color: aliceblue;
+        text-align: center;
+        padding: 10px;
+        
+        border-style:solid ;
+        border-color: black;
+        border-width: 2px;
+        border-radius: 5px;
+
+        margin: 5px;
+
+
+    }
+
+    nav{
+        margin:auto;
+        padding: 5px;
+        font-size: large;
+        font-weight: bold;
+        width: 325px;
+        background-color: aliceblue;
+        border: solid;
+        border-width: 3px;
+
+    }
+
+
+         
+        
+    ul.titulo{
+        display:inline;
+   }
+
+    li.nivel1{
+        
+        color: blue;
+        display: inline;
+    }
+
+    li.nivel1:hover{
+        font-weight: 900;
+        text-decoration-line: underline;
+    }
+    
+       
+
+
+    h1 {background-color: #32B858; text-align: center;color: black; border-radius:4pt;
+     }
+     h2 {
+        text-align: center;
+     }
+
+    p {font-size: medium;color: black;  
+    }
+
+    section.tabela_carteira{
+        margin:auto;
+        margin-top: 25px;
+        width: 900px;
+        background-color: #32B858;
+        border-width: 3px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 15px;
+        text-align: right;
+        
+    }
+
+
+    section.tabela_ordens {
+        width: 900px;
+        margin:auto;
+        margin-top: 35px;
+        background-color: yellow;
+        text-align: right; 
+        border-width: 3px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 15px;
+        text-align: right;
+        
+    }
+   
+
+
+
+
+
+    footer {
+        background-color:white; 
+        font-style: oblique;
+        margin: auto;
+        width: 350px;
+        text-align: center;
+        
+   }
+
+   
