@@ -16,46 +16,42 @@
 
 }
 
+
    
-    body{
-        background-image: linear-gradient(to right, var(--cor0), white)
+body{
+    background-image: linear-gradient(to right, var(--cor0), white)
     }
 
     
 
-    header{
-        background-color: aliceblue;
-        text-align: center;
-        padding: 10px;
-        
-        border-style:solid ;
-        border-color: black;
-        border-width: 2px;
-        border-radius: 5px;
+header{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    border-style:solid ;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: 5px;
+}
 
-        margin: 5px;
-
-
-    }
-
-    nav{
-        margin:auto;
-        padding: 5px;
-        font-size: large;
-        font-weight: bold;
-        width: 325px;
-        background-color: aliceblue;
-        border: solid;
-        border-width: 3px;
-
-    }
+nav{
+    margin:auto;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+    width: 325px;
+    background-color: aliceblue;
+    border: solid;
+    border-width: 3px;
+}
 
 
          
         
     ul.titulo{
         display:inline;
-   }
+           }
 
     li.nivel1{
         
@@ -73,32 +69,69 @@
 
     h1 {background-color: #32B858; text-align: center;color: black; border-radius:4pt;
      }
+
      h2 {
         text-align: center;
      }
 
-    p {font-size: medium;color: black;  
+    p {
+        font-size: medium;
+        color: black;  
     }
 
     section.tabela_carteira{
         margin:auto;
         margin-top: 25px;
-        width: 900px;
-        background-color: #32B858;
+        max-width: 900px;
+        background-image:linear-gradient(to right, white, #32b85885);
         border-width: 3px;
         border-style: solid;
         border-color: black;
         border-radius: 15px;
         text-align: right;
+        border-collapse:separate;
         
     }
 
 
     section.tabela_ordens {
-        width: 900px;
+        max-width: 900px;
         margin:auto;
         margin-top: 35px;
-        background-color: yellow;
+        margin-bottom: 35px;
+        padding: 35px, 0px;
+        background-image: linear-gradient(to right, white, rgba(255, 255, 0, 0.322));
+        text-align: right; 
+        border-width: 3px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 15px;
+        text-align: right;
+         
+        
+    }
+
+
+    section.tabela_ordens{
+        color: black;
+       
+        text-decoration: underline;
+    }
+
+section.tabela_carteira > table> tbody> tr:hover  {
+    background-color: rgba(127, 255, 212, 0.63);
+   
+}
+
+   
+    section.tabela_ordens_historico{
+        max-width: 900px;
+        margin:auto;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        padding: 35px, 0px;
+        background-image:linear-gradient(to right, white, #32b85885);
+        border-width: 3px;
         text-align: right; 
         border-width: 3px;
         border-style: solid;
@@ -107,11 +140,6 @@
         text-align: right;
         
     }
-   
-
-
-
-
 
     footer {
         background-color:white; 
@@ -122,4 +150,11 @@
         
    }
 
+img.simbolo{
+    max-width: 75px;
+    max-height: 3em;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+  
    
